@@ -202,7 +202,7 @@ if 'show_ai_prediction' in locals() and show_ai_prediction:
                     st.write("**AI Explanation:**")
                     st.write(response["message"]["content"])
                 except Exception as e:
-                    st.error(f"Error communicating with Ollama: {e}")
+                    st.error(f"Error communicating with Ollama please check github: {e}")
 
             except Exception as e:
-                st.error(f"Error predicting stock price: {e}")
+                st.error(f"Error predicting stock price please check github: {e}")
